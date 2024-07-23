@@ -1,15 +1,5 @@
 # Swisstronik Tesnet Techinal Task 1
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
-
-Feel free donate to my EVM address
-
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
-
 ## Steps
 
 ### 1. Clone Repository
@@ -28,9 +18,9 @@ cd hardhat-deploy-contract
 npm install
 ```
 
-### 3. Set .env File
+### 3. Set Up .env File
 
-create .env file in root project
+Create a .env file in the root of the project with the following content:
 
 ```bash
 PRIVATE_KEY="your private key"
@@ -38,9 +28,9 @@ PRIVATE_KEY="your private key"
 
 ### 4. Create Smart Contract
 
-- Open contract folder
-- Create Hello_swtr.sol file
-- Copy this code and paste there
+- Open the contract folder
+- Create a file named Hello_swtr.sol
+- Copy and paste the following code into the file:
 
 ```
 /// SPDX-License-Identifier: UNLICENSED
@@ -77,25 +67,25 @@ contract Swisstronik {
 }
 ```
 
-### 5. Compile Smart Contract
+### 5. Compile the Smart Contract
 
 ```bash
 npm run compile
 ```
 
-### 6. Deploy Smart Contract
+### 6.  Deploy the Smart Contract
 
 ```bash
 npm run deploy
 ```
 
-### 7. Get Message
+### 7. Retrieve the Message
 
 ```bash
 npm run get-message
 ```
 
-### 8. Get Message
+### 8. Update the Message
 
 ```bash
 npm run set-message
@@ -103,13 +93,6 @@ npm run set-message
 
 ### 9. Finsihed
 
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-
-//0xf1f0C7Bf19ee4E196C0213cEE1002e9a5fadff62//
+- Open the deployed-address.ts file (located in the utils folder)
+- Copy the address and paste it into the testnet dashboard
+- Push the project to your GitHub repository and paste the repository link into the testnet dashboard
